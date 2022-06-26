@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from analytics.soccerment.com/signup by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Apr 2022 18:00:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free sign up to Soccerment Analytics. Register for free and start exploring the performance of football players and teams.">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="wMgok9qjGePOOppAJcG13GqreWUnDLbBqPiRVjDP">
+    <meta name="google-signin-client_id" content="274069268816-q08estcr54fanic7lfgia9mrf1fnng10.apps.googleusercontent.com">
+    <title>Register / Sign up to Soccerment Analytics</title>
+
+    <script src="../www.google.com/recaptcha/apic970.js?render=6LcgU_QUAAAAAOtbdKy82iEm0WooWDUW_rjQabGN"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+<script type="text/javascript" src="../cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+<script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {
+        "lang":"en","siteId":1621952,"cookiePolicyId":42827312,
+        callback: {
+            onConsentRead: function(){
+            }
+        },
+    "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center","acceptButtonColor":"0087be","acceptButtonCaptionColor":"e8eeef","customizeButtonColor":"7dcce9" }};
+</script>    <link href="css/app.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147141650-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N4PGTCL');
+</script>
+<!-- End Google Tag Manager -->
+    <!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    '../connect.facebook.net/en_US/fbevents.js');
+     fbq('init', '2287867511464285'); 
+    fbq('track', 'PageView');
+    </script>
+    <!-- Start of Async Drift Code -->
+    <link rel="icon" href="favicon-96x96.png" sizes="32x32" />
+<link rel="apple-touch-icon" sizes="128x128" href="apple-icon.png">
+<link rel="icon" sizes="192x192" href="android-icon-192x192.png">
+<link rel="icon" href="favicon-32x32.png" sizes="32x32" />
+<link rel="apple-touch-icon-precomposed" href="apple-icon-180x180.png" />
+    <script>
+	window.fb_id = '347775932773660';
+	var captcha_key = '6LcgU_QUAAAAAOtbdKy82iEm0WooWDUW_rjQabGN'
+	grecaptcha.ready(function() {
+		grecaptcha.execute(captcha_key, {action: 'login'}).then(function(token) {
+			
+			$("#captcha").val(token);
+		})
+	});
+    </script>
+
+    <script src="../apis.google.com/js/api_client.js"></script>
+    <script>
+    
+
+var googleUser = {};
+var startApp = function() {
+  gapi.load('auth2', function(){
+    // Retrieve the singleton for the GoogleAuth library and set up the client.
+    auth2 = gapi.auth2.init({
+      client_id: '274069268816-q08estcr54fanic7lfgia9mrf1fnng10.apps.googleusercontent.com',
+      cookiepolicy: 'single_host_origin',
+      // Request scopes in addition to 'profile' and 'email'
+      //scope: 'additional_scope'
+    });
+    attachSignin(document.getElementById('customBtn'));
+  });
+};
+
+function attachSignin(element) {
+  console.log(element.id);
+  auth2.attachClickHandler(element, {},
+      function(googleUser) {
+
+        let data = {
+            social_id:googleUser.getBasicProfile().getId(),
+            type:"google",
+            name:googleUser.getBasicProfile().getGivenName(),
+            last_name:googleUser.getBasicProfile().getFamilyName(),
+            email:googleUser.getBasicProfile().getEmail(),
+        }
+        extra_social_one(data);
+        
+      }, function(error) {
+        alert(JSON.stringify(error, undefined, 2));
+      });
+}
+</script>
+<style type="text/css">
+  #customBtn {
+    display: inline-block;
+    background: white;
+    color: #444;
+    width: 100%;
+    padding: 0rem 0.5rem;
+    border-radius: 5px;
+    border: thin solid #888;
+    white-space: nowrap;
+  }
+  #customBtn:hover {
+    cursor: pointer;
+  }
+  span.label {
+    font-family: serif;
+    font-weight: normal;
+  }
+  span.icon {
+    background: url('images/g-normal.png') transparent 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+  }
+  span.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 26px;
+    padding-right: 42px;
+    font-size: 1.125rem;
+
+  }
+</style></head>
+<body>
+    <div id="app">
+            <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXHSVSM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar navbar-expand-lg navbar-dark navbar-css">
+  <a class="navbar-brand" href="https://soccerment.com/" target="_BLANK">
+	<img class="only-desk" src="images/logo-soccermenthdpi.png" alt="Professional Analytics Player - logo">
+  </a>
+  <img id="soccerment-name" class="only-mobile" src="images/soccerment-name.png" alt="">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_menu" aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main_menu">
+
+    <ul class="navbar-nav ml-auto">
+    	<li class="nav-item">
+            <a class="nav-link " href="index.html">Dashboard</a>
+        </li>
+      	<li class="nav-item ">
+        	<a class="nav-link" href="en/player-smart-search.html">Player Smart Search</a>
+      	</li>
+      	<li class="nav-item">
+        	<a class="nav-link" href="en/live-results.html" title="Coming soon">Live Results</a>
+        </li>
+      <!--<li class="nav-item">
+        <a class="nav-link" href="https://soccerment.com/" target="_BLANK">Soccerment.com</a>
+      </li>-->
+
+	</ul>
+	<!--<form class="form-inline my-2 my-lg-0">
+		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	</form>-->
+	<ul class="navbar-nav">
+		        <li class="nav-item dropdown icon_menu_element">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="far fa-user"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="login.html">LOG IN</a>
+            <a class="dropdown-item" href="signup.html">SIGN UP</a>
+            <a class="dropdown-item" href="en/invite.html">INVITE</a>
+          </div>
+        </li>
+	  	  <li class="nav-item dropdown icon_menu_element" id="lang_menu">
+		<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<i class="fas fa-language"></i>
+		</a>
+		<div class="dropdown-menu" style="left: -93px!important;" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item lang" data-lang="it" href="#">Italian</a>
+			
+			
+						<a class="dropdown-item lang" data-lang="tr" href="#">Turkish</a>
+									<a class="dropdown-item lang" data-lang="fr" href="#">French</a>
+									<a class="dropdown-item lang" data-lang="es" href="#">Spanish</a>
+									<a class="dropdown-item lang" data-lang="pt" href="#">Portuguese</a>
+			
+		</div>
+	  </li>
+    </ul>
+  </div>
+</nav>
+        <main class="pt50">
+            
+
+
+<div class="only-mobile bg-register">
+    <div class="claim">
+
+		<header class="mt30">
+            <img src="images/logo300x300.png" alt="">
+		</header>
+
+    </div>
+
+   <!-- <img class="img-bg" src="/images/signup-bg.jpg" alt=""> -->
+</div>
+<div class="container register">
+    <div class="row">
+        <div class="col-md-12 only-desk"></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 only-desk">
+			<h1 class="header">Free sign up to Soccerment Analytics.</h1>
+            <p class="text-center mt20">
+                Register for free and start exploring the performance of football players and teams.
+            </p>
+            <div class="img_claim">
+                <img src="images/home-page/analytics-mockup.png" alt="">
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 login-card">
+            <div class="card">
+                <!-- <div class="card-header">Sign up</div> -->
+
+                <div class="card-body">
+                    <form id="registration-form" method="POST" action="https://analytics.soccerment.com/register" aria-label="Register">
+                        <input type="hidden" name="_token" value="wMgok9qjGePOOppAJcG13GqreWUnDLbBqPiRVjDP">
+                        <div class="form-group row mb20">
+                            <div class="col-md-8 offset-md-4">
+                                <a href="#" class="btn btn-primary btn-lg btn-block btn-facebook">
+                                    <i class="fab fa-facebook-square" style="font-size: 27px; float: left;"></i>
+                                    Sign up with Facebook
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="form-group row mb20">
+                            <div class="col-md-8 offset-md-4">
+                                <div id="gSignInWrapper">
+                                    <div id="customBtn" class="customGPlusSignIn">
+                                        <span class="icon"></span>
+                                        <span class="buttonText"> Sign up with Google</span>
+                                    </div>
+                                </div>
+                                <div id="name"></div>
+                                <script>startApp();</script>
+                            </div>
+                        </div>
+                        <div class="row or-separator">
+                            <div class="col-md-8 offset-md-4 text-center">
+                                ---- or ----
+                            </div>
+                        </div>
+                        <section id="add_fields" style="display:none">
+                            <div class="form-group row">
+                                <label for="name" class="col-md-4 col-form-label text-md-right">Full name*</label>
+
+                                <div class="col-md-8">
+                                    <input id="firstName" type="text" class="form-control" name="firstName" value="" required autofocus>
+
+                                                                    </div>
+                            </div>
+                            <!--<div class="form-group row">
+                                <label for="last_name" class="col-md-4 col-form-label text-md-right">Last name*</label>
+
+                                <div class="col-md-8">
+                                    <input id="lastName" type="text" class="form-control" name="lastName" value="" required autofocus>
+
+                                                                    </div>
+                            </div>-->
+
+                            <div class="form-group row">
+                                <label for="email" class="col-md-4 col-form-label text-md-right">E-Mail Address*</label>
+
+                                <div class="col-md-8">
+                                    <input id="email" type="email" class="form-control" name="email" value="" required>
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="password" class="col-md-4 col-form-label text-md-right">Password*</label>
+
+                                <div class="col-md-8">
+                                    <input id="password" type="password" class="form-control" name="password" required>
+
+                                                                    </div>
+                            </div>
+
+                        </section>
+
+                        <div class="form-group row mb-0">
+                            <div class="col-md-8 offset-md-4">
+                                <button type="button" class="reg-with-mail btn btn-primary  btn-lg only-desk  btn-block">
+                                    Sign up with Email
+                                </button>
+                                <button type="button" class="reg-with-mail btn btn-primary btn-lg only-mobile btn-block">
+                                    Sign up with Email
+                                </button>
+                            </div>
+                        </div>
+                        <div id="buttons_extended" class="form-group row mb-0" style="display:none">
+                            <div class="col-md-8 offset-md-4">
+                                <button type="submit" class="btn btn-primary  btn-lg only-desk  btn-block">
+                                    Sign up with Email
+                                </button>
+                                <button type="submit" class="mt20 btn btn-primary btn-lg only-mobile btn-block">Sign up with Email</button>
+                            </div>
+                        </div>
+                        <p class="col-12 col-md-8  offset-md-4 mt20">By signing up, you agree to Soccerment's <a target="_BLANK" href="term-of-conditions.html">Term of Use</a> and <a href="register.html#">Privacy Policy</a></p>
+                        <input type="hidden" name="back_url" value="home">
+                        <input type="hidden" name="captcha" id="captcha">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </main>
+    </div>
+		
+	<script src="js/app.js"></script>
+    <script src="js/login.js"></script>
+
+    <script>
+    $(".btn-facebook").click((e) => {
+        e.preventDefault();
+        FB.login(function (response) {
+
+            //console.log('------>', response); // dump complete info
+            if (response.authResponse) {
+                var authResponse = response.authResponse;
+                access_token = response.authResponse.accessToken; //get access token
+                user_id = response.authResponse.userID; //get FB UID
+
+                FB.api('/me?fields=name,id,email,first_name,last_name,birthday',{
+
+                }, function (response) {
+                    response.authResponse = authResponse;
+
+                    let data = {
+                        social_id:response.id,
+                        type:"facebook",
+                        name:response.name,
+                        last_name:response.last_name,
+                        email:response.email,
+                    }
+                    
+                    console.log(response);
+                    extra_social_one(data);
+                    
+                });
+
+            } else {
+                //user hit cancel button
+                console.log('User cancelled login or did not fully authorize.');
+
+            }
+        }, {
+                scope: 'email,public_profile'
+            });
+    });
+
+    
+    
+    </script>    
+
+    <script>
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "../connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+</body>
+
+<!-- Mirrored from analytics.soccerment.com/signup by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Apr 2022 18:00:42 GMT -->
+</html>

@@ -1,0 +1,134 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <title>Free Proxy / VPN IP Detection Service | Web Interface | IP Intelligence</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Proxy VPN detection to prevent fraud, stolen content, and malicious users. Identify and block proxies ip, VPN connections, web host IPs, TOR IPs, and compromised systems.">
+    <meta name="keywords" content="proxy checker, vpn checker, proxy detection, VPN detection, detect proxy IP, detect VPN IP, detect TOR IP">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+      <style>body{color:#555555;background-color:#f7f7f7;}</style>
+  </head>
+  
+  <body>
+  <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-5 mb-3 border-bottom box-shadow">
+          <h5 class="my-1 mr-md-auto">IP Intelligence - Proxy / VPN / Bad IP Detection</h5>
+          <nav class="my-2 my-md-0 mr-md-3">
+              <a class="btn btn-outline-dark" href="../">Home</a>
+              <a class="btn btn-secondary" href="#">Web Interface</a>
+              <a class="btn btn-outline-dark" href="../free-proxy-vpn-tor-detection-api">API Documentation</a>
+              <a class="btn btn-outline-dark" href="../free-proxy-vpn-tor-detection-api/#FAQ">FAQ</a>
+              <a class="btn btn-outline-dark" href="#Contact">Contact</a>
+          </nav>
+      </div>
+      
+      <div class="p-3 px-md-6 mb-3">
+      <p class="lead">
+      IP Intelligence is a service that determines how likely an IP address is a proxy / VPN / bad IP using advanced mathematical and modern computing techniques 
+      </p>
+      </div>
+      <div class="p-2 px-md-6 mb-2">
+          <div class="p-2 mb-2">
+              <p class="lead">
+                  </p><h4>How It Works </h4>
+              <p></p>
+              Given an IP address, the system will return a <b>probabilistic</b> value (between a value of <span class="badge badge-secondary">0</span> and <span class="badge badge-secondary">1</span>) of how likely the IP is a VPN / proxy / hosting / bad IP. A value of <span class="badge badge-secondary">1</span> means that IP is explicitly banned (a web host, VPN, or TOR node) by our dynamic lists. Otherwise, the output will return a real number value between 0 and 1, of how likely the IP is bad / VPN / proxy, which is inferred through <strong>machine learning &amp; probability theory techniques </strong> using dynamic checks with large datasets. Billions of new records are parsed each month to ensure the datasets have the latest information and old records automatically expire. The system is designed to be efficient, fast, simple, and accurate.
+          </div>
+          
+          <div class="p-2 mb-2">
+              <p class="lead">
+                  </p><h4>Assumptions</h4>
+              <p></p>
+              <strong>The following assumptions must be met for the sake of accuracy and correctness.</strong> 
+              <ul>
+                  <li>It is assumed that the IP you're looking up is making a request to <b>your</b> services on an application level. If you block IPs on a lower level, important services such as DNS maybe be blocked which is not desired. Be sure the source IP addresses are correct (not spoofed) if you're trying to protect a UDP based service.</li>
+                  <li>If your online services involve multiple servers or external services that interact with your online infrastructure, it is assumed that you do not look up these IPs or the IPs are whitelisted on your system.</li>
+              </ul>
+          </div>
+          
+          
+          <div class="p-2 mb-2">
+              <p class="lead">
+                  </p><h4>Usage &amp; Implementation</h4>
+              <p></p>
+              <br>
+              <h5 id="web">Web Interface</h5>
+              The web interface allows you to quickly lookup IPs without touching any code. It is assumed that the IP you're looking up has made requests to your services on an application level. The web interface uses <span class="badge badge-secondary">flags=f</span> which requests full bad IP detection including compromised systems. If you wish to skip full bad IP detection, please use the API instead. A full lookup might take up to 5 seconds to complete because results are generated in real-time. 
+              <br><br>
+              <div class="alert alert-warning alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    The full API documentation is available on the <strong><a href="../free-proxy-vpn-tor-detection-api"> API page </a></strong>
+              </div>
+              <div class="card" id="web">
+                  <div class="card-header text-center">
+                  <br>
+                      <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/kcXVPRWG7fMILHmzon0--fD3/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-9ah7W73C/cOhQyUXG801ICjOv2nqRu6Hzv+2XEu2HbUGxrKtThNV8wr0fzIArgUy"></script><script>
+                         function onSubmit(token) {
+                           document.getElementById("ipform").submit();
+                         }
+                       </script>
+                      <form id="ipform" action="#web" method="post">
+                         <input type="text" name="ip" id="ip" placeholder="Enter a valid IP address">
+                         <br> <br>
+                  <div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfhYeUZAAAAAPdO8FniAWQzCQJXv6sHIhvMBjik&amp;co=aHR0cHM6Ly9nZXRpcGludGVsLm5ldDo0NDM.&amp;hl=en&amp;v=kcXVPRWG7fMILHmzon0--fD3&amp;size=invisible&amp;sa=submit&amp;cb=w0lp0xvhu2m7" width="256" height="60" role="presentation" name="a-9mcqiu9sl0ut" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div><button class="g-recaptcha btn btn-primary btn-sm" data-sitekey="6LfhYeUZAAAAAPdO8FniAWQzCQJXv6sHIhvMBjik" data-callback="onSubmit" data-action="submit"> Lookup</button>
+                         </form>
+                         
+                                             </div>
+                  </div>
+                  <br><br>
+                  
+                  
+                  <strong>Interpretation of the Results</strong><br>
+                  If a value of 0.50 is returned, then it is as good as flipping a 2 sided fair coin, which implies it's not very accurate. From my personal experience, values &gt; 0.95 should be looked at and values &gt; 0.99 are most likely proxies. Anything below the value of 0.90 is considered as "low risk". Since a real value is returned, different levels of protection can be implemented. It is best for a system admin to test some sample datasets with this system and adjust implementation accordingly. <strong>I only recommend automated action on high values ( &gt; 0.99 or even &gt; 0.995 ) but it's always best to manually review IPs that return high values.</strong> For example, mark an order as "under manual review" and don't automatically provision the product for high proxy values. <strong>Be sure to experiment with the results of this system before you use it live on your projects.</strong> If you believe the result is wrong, don't hesitate to contact me, I can tell you why. If it's an error on my end, I'll correct it. If you email me, expect a reply within 12 hours.
+                  <br><br>
+                      <h4>Disclaimer</h4><br>
+                      No guaranatees, warranties, etc, is provided or implied. Use at your own risk. GetIPIntel is not liable for damages or claims of any kind.
+                      <br><br>
+                      <h4 id="TOS">Terms of Service</h4><br>
+                      By using this service, you agree to:
+                      <ul>
+                        <li>Not sell this service or information generated from this service, directly or
+                        indirectly, without explicit consent.</li>
+                  
+                        <li>Not use / reuse information generated from this service, directly or
+                        indirectly, without giving credit to the source (this website).</li>
+                      
+                        <li>Not exceed the query limits if you're a free user.</li>
+                      
+                        <li>Not look up random IPs / incremental IP lookups. The database changes very
+                        often so information becomes stale very fast. It just causes a higher server load
+                        for no reason.</li>
+                      
+                        <li>The Terms of Service may change at any given time, without prior notice.</li>
+                    </ul>
+                      <br><br>
+                      <h4 id="Contact">Contact</h4><br>
+                      You can find me on
+                      <a href="http://www.twitter.com/blackdotsh">Twitter</a>,
+                      <a href="http://github.com/blackdotsh">GitHub</a>,
+                      or
+                      <a href="mailto:contact@getipintel.net">email</a>. 
+                      If I do not respond to your email within 24 hours then something wrong, check your spam folder. Please send an email to
+                      <a href="mailto:getipintel@gmail.com">my gmail address</a>,
+                      or contact me via twitter. Ultimately, I want the system to be as accurate as possible, so please let me know if there are any inaccuracies, I'd like to fix the issue. Let me know if you have any custom requirements such as more queries per minute, skip cache so it always gets the latest data and recompute the result, etc.			  	  
+              
+              </div>
+              <br><br><br>
+              <div id="footer" class="p-2 px-md-6 mb-2 text-center">
+              
+                Datasets updates too often to keep track of, there's around ~ 
+              600387000 pieces of information generating the results for your requests. <br>
+              </div>
+          </div>
+          
+          
+          
+      </div>
+      
+  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+  
+  
+  
+  </body></html>

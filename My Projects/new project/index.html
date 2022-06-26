@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Star Rithvik</title>
+    <link rel="stylesheet" href="style.css.css"
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="menu.png" class="menu-img">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Projects</a></li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+        </nav>
+
+        <div class="lamp-container">
+            <img src="lamp.png" class="lamp">
+            <img src="light.png" class="light" id="light">
+        </div>
+
+        <div class="text-container">
+            <h1>SuperStar<br> Rithvikailas G</h1>
+            <p>A superstar is someone who has great popular appeal and is widely known, prominent, or successful in their field. ... 
+                Celebrities referred to as "superstars" may include individuals who work as actors, musicians, 
+                athletes, and other media-based professions.
+            </p>
+            <a href="">Check all the collections</a>
+            <div class="control">
+                <p>04</p>
+                <div class="line"><span></span></div>
+                <p>05</p>
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+<script>
+    var btn = document.getElementById("btn");
+    var light = document.getElementById("light");
+
+    function toggleBtn(){
+        btn.classList.toggle("active")
+        light.classList.toggle("on");
+
+
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+{
+  "name": "Drlogy",
+  "short_name": "Drlogy",
+  "description": "Drlogy creates a single healthcare platform for patient, professional and practice to access anytime, anywhere and anyway.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "natural",
+  "theme_color": "#1078f2",
+  "background_color": "#1078f2",
+  "icons": [
+    {
+		"src": "https://drlogy.com/assets/uploads/general/512.png",
+	 	 "type": "image/png",
+	 	 "sizes": "512x512",
+		"purpose": "any maskable"
+	},
+	{
+		"src": "https://drlogy.com/assets/uploads/general/192.png",
+	 	 "type": "image/png",
+	  	"sizes": "192x192",
+		"purpose": "any maskable"
+	}
+  ]
+}

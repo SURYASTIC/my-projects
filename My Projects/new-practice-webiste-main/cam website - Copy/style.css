@@ -1,0 +1,166 @@
+*{
+	margin: 0px;
+	padding: 0p;
+}
+
+.login{
+	margin-right: 100px;
+}
+.search{
+	margin-left: 100px;
+}
+.elements{
+	margin-left: 100px;
+}
+.logo{
+	margin-left: 100px;
+}
+.list{
+	text-decoration: none;
+}
+.cont{
+	margin-left: 0px;
+	padding: 0px;
+	display:flex;
+
+}
+.menu-bar{
+	height: 500px;
+	width: 300px;
+	background-color: white;
+	margin-top: 20px;
+	margin-left: 0px;
+	padding: 0px;
+	color: black;
+}
+.topic{
+	color: black;
+	margin-left:0px;
+}
+.li-item{
+	align-items: center;
+	margin-top: 20px;
+	justify-content: center;
+	margin-left: 0px;
+	text-decoration: none;
+	list-style: none;
+	list-style: none;
+	color: black;
+
+}
+.img-item{
+	height: 20px;
+	width: 20px;
+
+}
+li{
+	text-decoration: none;
+	list-style: none;
+
+}
+ul{
+	text-decoration: none;
+	list-style: none;
+}
+.topic-button{
+	margin-left: 0px;
+	width: 100%;
+	margin-top: 30px;
+	color: green;
+	background color: white;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: blue;
+	margin-right: 5px;
+}
+.a{
+	margin-left: 0px;
+	padding-left: 0px;
+
+}
+.items{
+	height: 3450px;
+	width: 1000px;
+	padding-bottom: 2px;
+	background-color: #f1d7d7;
+	margin-left: 50px;
+	margin-top: 20px;
+	justify-content: space-between;
+	
+}
+.ad{
+	display: flex;
+}
+.img-ad{
+	height:150px;
+	width: 100%;
+
+}
+.sale-ad{
+	width: 100px;
+}
+.img-sale{
+	height: 100px;
+	width: 1000px;
+	margin-top: 5px;
+}
+.sale-items{
+	display: flex;
+}
+.sales-head{
+	margin-left: 5px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.b1{
+	margin-top: 20px;
+	margin-left: 800px;
+}
+.prod{
+	display: flex;
+	justify-content: space-between;
+}
+.prod-1{
+	height: 330px;
+	width: 200px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.prod-img{
+	margin-left: 50px;
+	margin-top: 10px;
+	width: 100px;
+	height: 150px;
+}
+.prod-name{
+	margin-left: 10px;
+	color: brown;
+}
+.prod-amt{
+	margin-left: 10px;
+	color: green;
+
+}
+.prod-offer{
+	margin-left: 70px;
+	color: green;
+	font-weight: bold;
+}
+.prod-off-amt{
+	margin-left: 10px;
+	color: darkblue;
+}
+.final-img{
+	width: 1000px;
+	margin-top: 5px;
+}
+
+./*footer{
+	width: 100%;
+	height: 200px;
+}*/
+.footer{
+	
+}

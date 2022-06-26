@@ -1,0 +1,1 @@
+document.getElementsByTag('p');

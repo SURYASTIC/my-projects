@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top:0;
+    z-index:100;
+    
+}
+
+.header_logo {
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.header_middle{
+    display: flex;
+    align-items: center;
+    width: 27%;
+    padding: 6px;
+  border: 1px solid rgb(153, 138, 138);
+  border-radius: 25px;
+}
+
+.header_middle > input {
+    flex : 1;
+    border: none;
+    outline: none;
+}
+
+.header_right{
+    margin-right: 2%;
+    padding: 2px 5px;
+
+}
+.Submit {
+    outline: none;
+    background-color: white;
+    border: none;
+    color: #480749;
+}
